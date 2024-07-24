@@ -1,13 +1,12 @@
 ---
 title: "Practica programada 2 Johanna Umaña"
 author: "Nayib Vargas"
-link git: https://github.com/JohaBadilla/practicaprogramadadosjohanna.git
 format: 
   html:
     code-fold: true
     theme: cosmo
   pdf: default.
-  
+#link git: https://github.com/JohaBadilla/practicaprogramadadosjohanna.git 
 ---
 ```{python}
 import pandas as pd
