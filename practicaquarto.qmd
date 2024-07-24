@@ -1,0 +1,46 @@
+---
+title: "Practica programada 2 Johanna Umaña"
+author: "Nayib Vargas"
+link git: https://github.com/JohaBadilla/practicaprogramadadosjohanna.git
+format: 
+  html:
+    code-fold: true
+    theme: cosmo
+  pdf: default.
+  
+---
+```{python}
+import pandas as pd
+import seaborn as sns
+import matplotlib.pyplot as plt
+
+data = pd.read_csv("./diabetes.csv")
+
+```
+
+
+## Visualización de datos en Seaborn
+
+
+```{python}
+plt.figure(figsize=(15, 10))
+sns.boxplot(x="Age", y="Glucose", data=data)
+plt.title("Glucosa por edad")
+plt.show()
+```
+
+
+```{python}
+plt.figure(figsize=(10, 6))
+sns.histplot(data=data, x="Glucose",kde=True)
+plt.title("Distribución glucosa general")
+plt.show()
+```
+
+```{python}
+plt.figure(figsize=(10, 6))
+sns.boxplot(x="Pregnancies", y="Insulin", data=data)
+plt.title("Insulina por embarazos")
+plt.show()
+```
+
