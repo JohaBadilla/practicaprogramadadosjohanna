@@ -5,9 +5,11 @@ format:
   html:
     code-fold: true
     theme: cosmo
-  pdf: default.
-#link git: https://github.com/JohaBadilla/practicaprogramadadosjohanna.git 
+  pdf: default
+  
 ---
+#link git: https://github.com/JohaBadilla/practicaprogramadadosjohanna.git 
+
 ```{python}
 import pandas as pd
 import seaborn as sns
